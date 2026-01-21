@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form action="/submit" method="POST">
+      <label>Name:</label>
+      <br>
+      <input type="text" name="name">
+      <br>
+      <label>Age:</label>
+      <br>
+      <input type="number" name="age">
+
+      <button type="submit">Send</button>
+    </form>
+
+    <p id="364">Your name is {{ name }} and you are {{ age }} old</p>
+
+    <script>
+      document.getElementById('364').innerHTML = ''
+    </script>
+  </body>
+</html>

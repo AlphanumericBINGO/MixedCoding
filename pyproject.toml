@@ -1,0 +1,11 @@
+[project]
+name = "cipherbox"
+version = "0.1.0"
+description = "A tiny library of classic ciphers"
+authors = [{ name="Om Patel" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

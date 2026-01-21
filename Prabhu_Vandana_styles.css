@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background-color: #000000ff;
+    color: #ffff;
+}
+h1, h2 {
+    text_decoration: underline;
+    
+}
+
+h1, h2, #prayers {
+    font-weight: bold;
+}
